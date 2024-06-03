@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T14:17:53.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kNm5x7Dol5X5imrrGPkk" version="24.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T14:21:26.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DC2Tm2pIsc5omzS-SWOY" version="24.4.11" type="github">
   <diagram name="Page-1" id="ee-9j6xo_8bMcpAGnPA2">
-    <mxGraphModel dx="1357" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1062" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-2" value="LD M8002&lt;div&gt;SET S0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="680" y="350" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-4" value="S0 Reset Z axis" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-4" value="S0 Reset Z axis" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="800" y="322.5" width="140" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -24,7 +24,7 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-6" value="MOV K600 SPD&lt;div&gt;MOV K20000 RANGE&lt;/div&gt;&lt;div&gt;MOV K5 V (reverse)&lt;/div&gt;&lt;div&gt;Wait 0.5 sec&lt;/div&gt;&lt;div&gt;Execute&lt;/div&gt;&lt;div&gt;LD ZLim(X2)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HLjC96ch0Je8V6oZRv8p-4">
           <mxGeometry y="25" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-8" value="S10 Reset X axis" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-8" value="S10 Reset X axis" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="980" y="322.5" width="140" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -32,7 +32,7 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-9" value="MOV K600 SPD&lt;div&gt;MOV K20000 RANGE&lt;/div&gt;&lt;div&gt;MOV K5 V (reverse)&lt;/div&gt;&lt;div&gt;Wait 0.5 sec&lt;/div&gt;&lt;div&gt;Execute&lt;/div&gt;&lt;div&gt;LD XLim(X0)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HLjC96ch0Je8V6oZRv8p-8">
           <mxGeometry y="25" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-10" value="S20 Reset Y axis" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-10" value="S20 Reset Y axis" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1160" y="322.5" width="140" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -43,7 +43,7 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-37" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-14" target="HLjC96ch0Je8V6oZRv8p-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-14" value="S30 set X to init" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-14" value="S30 set X to init" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1330" y="322.5" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -51,8 +51,8 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-15" value="MOV K1000 SPD&lt;div&gt;MOV K10000 RANGE&lt;/div&gt;&lt;div&gt;MOV K4 V (forward)&lt;/div&gt;&lt;div&gt;Wait 0.5 sec&lt;/div&gt;&lt;div&gt;Execute&lt;/div&gt;&lt;div&gt;LD M8029 &amp;amp; 0.5 sec reach&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HLjC96ch0Je8V6oZRv8p-14">
           <mxGeometry y="25" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-19" value="S40 set X to init" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="490" width="170" height="125" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-19" value="S40 set X to init" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -62,8 +62,8 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-21" target="HLjC96ch0Je8V6oZRv8p-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-21" value="S50 set X to init" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="490" width="170" height="125" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-21" value="S50 set X to init" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="690" y="490" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -73,8 +73,8 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-23" target="HLjC96ch0Je8V6oZRv8p-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-23" value="S55 turn on cutting motor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="521.25" width="170" height="62.5" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-23" value="S55 turn on cutting motor" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="900" y="521.25" width="170" height="62.5" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -93,15 +93,15 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-19" target="HLjC96ch0Je8V6oZRv8p-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-40" value="S60 Set Z for cutting" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="490" width="170" height="125" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-40" value="S60 Set Z for cutting" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="490" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HLjC96ch0Je8V6oZRv8p-43" value="MOV K500 SPD&lt;div&gt;MOV K2000 RANGE&lt;/div&gt;&lt;div&gt;MOV K4 V (forward)&lt;/div&gt;&lt;div&gt;Wait 0.5 sec&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Execute&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LD M8029 &amp;amp; 0.5 sec reach&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HLjC96ch0Je8V6oZRv8p-40">
           <mxGeometry y="25" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-44" value="S70 Set X for cutting" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-44" value="S70 Set X for cutting" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1320" y="490" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -112,8 +112,8 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-40" target="HLjC96ch0Je8V6oZRv8p-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-47" value="S80 Set Y for cutting" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="660" width="170" height="125" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-47" value="S80 Set Y for cutting" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="660" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -123,15 +123,15 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-49" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-45" target="HLjC96ch0Je8V6oZRv8p-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-50" value="S90 Set X for cutting" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="660" width="170" height="125" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-50" value="S90 Set X for cutting" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="690" y="660" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HLjC96ch0Je8V6oZRv8p-51" value="MOV K500 SPD&lt;div&gt;MOV K5000 RANGE&lt;/div&gt;&lt;div&gt;MOV K4 V (forward)&lt;/div&gt;&lt;div&gt;Wait 0.5 sec&lt;/div&gt;&lt;div&gt;Execute&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LD M8029 &amp;amp; 0.5 sec reach&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HLjC96ch0Je8V6oZRv8p-50">
           <mxGeometry y="25" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-52" value="S100 Set Y for cutting" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-52" value="S100 Set Y for cutting" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="900" y="660" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -139,25 +139,22 @@
         <mxCell id="HLjC96ch0Je8V6oZRv8p-53" value="MOV K500 SPD&lt;div&gt;MOV K5000 RANGE&lt;/div&gt;&lt;div&gt;MOV K4 V (forward)&lt;/div&gt;&lt;div&gt;Wait 0.5 sec&lt;/div&gt;&lt;div&gt;Execute&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LD M8029 &amp;amp; 0.5 sec reach&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HLjC96ch0Je8V6oZRv8p-52">
           <mxGeometry y="25" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-47" target="HLjC96ch0Je8V6oZRv8p-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="HLjC96ch0Je8V6oZRv8p-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-50" target="HLjC96ch0Je8V6oZRv8p-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HLjC96ch0Je8V6oZRv8p-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-58" target="HLjC96ch0Je8V6oZRv8p-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-58" value="S110 Set Z for stop" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="660" width="170" height="125" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-58" value="S110 Set Z for stop" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="660" width="170" height="125" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HLjC96ch0Je8V6oZRv8p-59" value="MOV K500 SPD&lt;div&gt;MOV K2000 RANGE&lt;/div&gt;&lt;div&gt;MOV K5 V (reverse)&lt;/div&gt;&lt;div&gt;Wait 0.5 sec&lt;/div&gt;&lt;div&gt;Execute&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LD M8029 &amp;amp; 0.5 sec reach&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HLjC96ch0Je8V6oZRv8p-58">
           <mxGeometry y="25" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HLjC96ch0Je8V6oZRv8p-60" value="S110 turn off cutting motor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="692.5" width="180" height="60" as="geometry">
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-60" value="S110 turn off cutting motor" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="692.5" width="180" height="60" as="geometry">
             <mxRectangle x="940" y="285" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -165,6 +162,9 @@
           <mxGeometry x="55" y="25" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HLjC96ch0Je8V6oZRv8p-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-52" target="HLjC96ch0Je8V6oZRv8p-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HLjC96ch0Je8V6oZRv8p-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.37;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HLjC96ch0Je8V6oZRv8p-47" target="HLjC96ch0Je8V6oZRv8p-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
